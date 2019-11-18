@@ -1,0 +1,1 @@
+export const SHOW_MESSAGES = 'Dashboard/MESSAGES/SHOW_MESSAGES';

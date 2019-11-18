@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://www.novartis.com/sites/all/themes/novartis/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://www.novartis.com/sites/all/themes/novartis/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Novartis | Application Gateway</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      var agent = navigator.userAgent.toLowerCase();
+
+      if (agent.indexOf('msie') != -1 || agent.indexOf('trident') != -1) {
+        alert(
+          'Application Gateway is not available in Internet Explorer at the moment. Please use Chrome or Edge.'
+        );
+      }
+    </script>
+    <div id="root"></div>
+    <script>
+      AG_AppID = 'c5515c13-36f2-4374-a210-86dcd22d865d';
+    </script>
+    <script src="https://metrics-client-ag.statwb-dev.eu.novartis.net/ag-web.min.js"></script>
+    <!-- <script src="http://localhost:8080/ag-web.min.js"></script> -->
+  </body>
+</html>

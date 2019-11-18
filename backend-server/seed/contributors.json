@@ -1,0 +1,10 @@
+[
+  { "type": "appDevLead", "title": "App Dev Lead" },
+  { "type": "bugReporter", "title": "Bug Reporter" },
+  { "type": "businnessEngLead", "title": "Business Engagement Lead" },
+
+  { "type": "qa", "title": "QA" },
+  { "type": "softwareDev", "title": "Software Developer" },
+  { "type": "systemOwner", "title": "System Owner" },
+  { "type": "tester", "title": "Tester" }
+]

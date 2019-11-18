@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Fira Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecef;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/** SOME RESET CSS */
+.ui.grid {
+  margin: 0;
+}
+
+.ui.grid > .row {
+  padding: 0;
+}
+
+.ui.menu {
+  border: none;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+.ui.list > .item > i.icon {
+  transition: none;
+}
+
+.ui.fullscreen.modal > .close {
+  color: #fff !important;
+}
+
+.ui.fullscreen.modal {
+  left: 2.5% !important;
+}
+
+.ui.fullscreen.scrolling.modal {
+  left: 2.5% !important;
+}
+
+figure {
+  margin: 1em 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+.ui.labeled.icon.menu .item > .icon:not(.dropdown) {
+  margin: 0 !important;
+}
+
+/** React Items Carousel overwrite */
+.itemsWrapper-carousel {
+  padding: 10px;
+}

@@ -1,0 +1,8 @@
+export const MODAL_TYPES = {
+  ADD_APPLICATION: 'Dashboard/Applications/ADD_APPLICATION',
+  EDIT_APPLICATION: 'Dashboard/Applications/EDIT_APPLICATION',
+  INFO_APPLICATION: 'Home/Applications/INFO_APPLICATION',
+  ADD_APP_COMMENT: 'Home/Applications/ADD_ADDP_COMMENT',
+  SUPPORT_APPLICATION: 'Home/Applications/SUPPORT_APPLICATION',
+  SHOW_APPLICATION_ID: 'Dashboard/Applications/SHOW_APPLICATION_ID'
+};

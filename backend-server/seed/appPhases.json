@@ -1,0 +1,6 @@
+[
+  { "type": "closeOut", "title": "Close Out" },
+  { "type": "earlyStartup", "title": "Early Start Up" },
+  { "type": "startUp", "title": "Start Up" },
+  { "type": "studyConduct", "title": "Study Conduct" }
+]
